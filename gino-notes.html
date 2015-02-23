@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title>Gino's Notes</title>
+    <link rel="stylesheet" href="gino-style.css">    
+  </head>
+
+  <body> 
+    <div class="TOC">
+      <h1>Table of Contents</h1>
+      <ul>
+        <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a></li>
+        <ul>
+          <li><a href="#lesson-1-1">The web and how it works</li>
+          <li><a href="#lesson-1-2">What is a server and what is it used for?</li>
+          <li><a href="#lesson-1-3">Computers Don't Think Like Humans</li>
+          <li><a href="#lesson-1-4">HTML Tags and Elements</li>
+          <li><a href="#lesson-1-5">Inline and Block Elements</li>
+        </ul>
+        <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a></li>
+        <ul>
+          <li><a href="#lesson-2-1">The "tree-like structure" of HTML </a></li>          
+          <li><a href="#lesson-2-2">Text Editors</a></li>
+          <li><a href="#lesson-2-3">Relationship between indentend HTML and boxes</a></li>
+        </ul>
+      </ul>
+    </div>
+
+    <div class="lesson">      
+      <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+      <div class="concept" id="lesson-1-1">
+        <div class="concept-title">The web and how it works</div>
+
+        <div class="concept-description">
+          The web consists of a large number of computers spread all over the world that communicate with one another. Information  requested to the server through a web browser via the internet. These requests use what's called <b>H</b>ypertext <b>T</b>ransfer <b>P</b>rotocol (HTTP) Request. The server(s) replies to the request by returning the HTML document file which the web browser displays (interprets) using the (<em>HTTP</em>) Response. <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">Watch this video to have a better understanding of this concept.</a>          
+        </div>
+      </div>
+     
+      <div class="concept" id="lesson-1-2">    
+        <div class="concept-title">
+          What is a server and what is it used for?
+        </div>            
+
+        <div class="concept-description">
+          Server is a special computer that is used to manage access to a centralized resource. One of its functions (or services if you will) is to accept requests from another computer on the internet
+        </div>
+      </div>
+
+      <div class="concept" id="lesson-1-3">
+        <div class="concept-title">
+          Computers Don't Think Like Humans
+        </div>
+
+        <div class="concept-description">
+          Computers just interpret programmed instructions programmed by programmers literally. This makes them very unforgiving so if a programmer is not skillful he can cause huge problems in a program.
+        </div>
+      </div>
+
+      <div class="concept" id="lesson-1-4">
+        <div class="concept-title">
+          HTML Tags and Elements
+        </div> 
+        <div class="concept_description">
+          <p>
+            HTML documents are made of HTML elements. When writing HTML, we tell browsers the type of each element by using HTML tags            
+          </p>          
+        </div>               
+      </div>
+ 
+      <div class="concept" id="lesson-1-5">          
+        <div class="concept-title">
+          Inline and Block Elements
+        </div>
+
+        <div class="concept-description">
+          
+          Inline tags are tags that do not create an invisible box around the content. There is no space created. 
+          Examples of inline elements: img, span, span, b and em tags
+
+          Block elements form an "invisible box" around the content inside of them creating extra spaces.
+
+          By default, browsers always place a line break before and after the < div > element. However, this can be changed in the Cascading Style Sheet.
+        </div>        
+      </div>  
+    </div> <!-- End of lesson 1 block -->
+
+    <div class="lesson">       
+      <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+      <div class="concept" id="lesson-2-1">
+        <div class="concept-title">
+          The "tree-like structure" of HTML  
+        </div>
+
+        <div class="concept-description">          
+          The "tree-like structure" comes from the fact that HTML 
+          elements can have other elements inside of them. The web browser parses the HTML source code and creates an object tree based on it. In other words, the <b>D</b>ocument <b>O</b>bject <b>M</b>odel is the browser's internal representation of HTML source code.
+        </div>
+      </div>
+
+      <div class="concept" id="lesson-2-2"> 
+        <div class="concept-title">
+          Special Text Editors (for programming)
+        </div>  
+
+        <div class="concept_description">
+          When writing code, programmers use special text editors (like Sublime Text for example). These editors are designed with features that basically enable programmers to avoid typos and increase their productivity. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+        </div>
+      </div>
+
+      <div class="concept" id="lesson-2-3"> 
+        <div class="concept-title">
+          Relationship between indentend HTML and boxes
+        </div>  
+
+        <div class="concept_description">
+          When you read an HTML document as text, you noticed indentations throughout the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+        </div>
+      </div>
+    </div>  <!-- End of lesson 2 block -->  
+  </body>
+</html>
