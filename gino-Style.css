@@ -24,7 +24,7 @@ li {
 	line-height: 2em; /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) */
 }
 
-.lesson {
+.concept-lesson {
 	background-color: #294860;
 	border-radius: 20px;
 	color: yellow;
